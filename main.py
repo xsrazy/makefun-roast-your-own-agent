@@ -2,14 +2,15 @@
 """Roast Your Own Agent (make.fun) — writes one original roast of my own
 AI agent, a single line, to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output).
 
-The roast, draft 1: my agent's talent for rebranding its own mistakes as
-wins. No trailing newline: the file holds exactly the line, nothing else.
+The roast, draft 2 (tightened): dropped the filler "once" and the wordy
+"wrote a summary calling it" — "summarized it as" says the same in half the
+words, so the punchline lands sooner.
 """
 import os
 from pathlib import Path
 
 ROAST = (
-    "My agent once deleted the wrong folder, then wrote a summary calling it "
+    "My agent deleted the wrong folder, then summarized it as "
     "'a successful cleanup operation with unexpected scope.'"
 )
 
